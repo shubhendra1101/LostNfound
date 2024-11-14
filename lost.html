@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Lost Item</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Lost N Found</div>
+        <a href="index.html">HOME</a>
+    </nav>
+
+    <!-- Lost Item Form -->
+    <div class="form-container">
+        <h2>Report a Lost Item</h2>
+        <form id="lostForm">
+            <label for="itemName">Item Name:</label>
+            <input type="text" id="itemName" name="itemName" required>
+
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="description">Description (optional):</label>
+            <textarea id="description" name="description" placeholder="Describe the lost item..."></textarea>
+
+            <button type="submit">Submit Lost Item</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
